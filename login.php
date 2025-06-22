@@ -59,7 +59,7 @@
                                     if($data->num_rows>0){
                                     $_SESSION['username']=$_POST['username'];
                                     $_SESSION['status']=true; header('location:dashboard.php');
-                                    }else { echo 'username atau password salah'; } } ?>
+                                    }else { echo 'username atau password salah!'; } } ?>
                             </div>
                         </div>
                     </div>
